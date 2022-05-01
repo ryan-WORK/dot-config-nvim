@@ -13,6 +13,7 @@
 --                                                   |
 -- FILENAME : init.lua                               |
 -- AUTHOR   : ryan-WORK                              |
+-- VERSION  : neovim-0.7.0                                                  |
 --                                                   |
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+
 
