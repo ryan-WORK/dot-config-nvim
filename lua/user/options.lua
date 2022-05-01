@@ -17,7 +17,10 @@ vim.opt.smartindent = true                      -- make indenting smarter again
 vim.opt.splitbelow = true                       -- force all horizontal splits to go below current window
 vim.opt.splitright = true                       -- force all vertical splits to go to the right of current window
 vim.opt.swapfile = false                        -- creates a swapfile
--- vim.opt.termguicolors = true                    -- set term gui colors (most terminals support this)
+
+vim.opt.termguicolors = false                   -- TODO: set term gui colors (most terminals support this)
+--vim.opt.background = 'dark'
+
 vim.opt.timeoutlen = 1000                       -- time to wait for a mapped sequence to complete (in milliseconds)
 vim.opt.undofile = true                         -- enable persistent undo
 vim.opt.undodir = '~/.vim/undodir'
@@ -41,7 +44,7 @@ vim.opt.shortmess:append "c"
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
-
+vim.cmd [[syntax on]]
 
 
 --vim.cmd([[
