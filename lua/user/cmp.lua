@@ -108,7 +108,7 @@ cmp.setup {
       return vim_item
     end,
   },
-  sources = {
+  sources = { -- Ordered in what shows up first
     { name = "luasnip" },
     { name = "buffer" },
     { name = "path" },
@@ -117,11 +117,23 @@ cmp.setup {
     behavior = cmp.ConfirmBehavior.Replace,
     select = false,
   },
-  documentation = {
-    border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
+-- Option #1
+--  window = {
+--    documentation = {
+--        border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
+--    }
+--  },
+-- Original w/ error
+--  documentation = {
+--    border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
+--  },
+--  
+--  Option #2
+  window = {
+    documentation = cmp.config.window.bordered(),
   },
   experimental = {
-    ghost_text = false,
+    ghost_text = false, -- TODO: TBD
     native_menu = false,
   },
 }
