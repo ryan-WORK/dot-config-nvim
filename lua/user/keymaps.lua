@@ -37,6 +37,10 @@ keymap("n", "<S-Right>", ":vertical resize -2<CR>", opts)
 --keymap("n", "<S-l>", ":bnext<CR>", opts)
 --keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
+-- Move text up and down NORMAL
+--keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
+--keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
+
 -- Insert --
 -- Press jk fast to enter
 --keymap("i", "jk", "<ESC>", opts)
@@ -46,12 +50,10 @@ keymap("n", "<S-Right>", ":vertical resize -2<CR>", opts)
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
--- Move text up and down
+-- Move text up and down VISUAL
 --keymap("v", ",", ":m .+1<CR>==", opts)
 --keymap("v", ".", ":m .-2<CR>==", opts)
-
--- Mod (y)ank (p)aste 
-keymap("v", "p", '"_dP', opts)
+keymap("v", "p", '"_dP', opts) -- Mod (y)ank (p)aste
 
 -- Visual Block --
 -- Move text up and down
@@ -66,3 +68,8 @@ keymap("v", "p", '"_dP', opts)
 --keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 --keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 --keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
+
+-- keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
+--keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
+--keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
+
