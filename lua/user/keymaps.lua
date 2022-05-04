@@ -26,14 +26,14 @@ vim.g.maplocalleader = " "
 --keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Nvimtree
---keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+--keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<S-z>", ":resize +2<CR>", opts)
 keymap("n", "<S-x>", ":resize -2<CR>", opts)
-keymap("n", "<S-Left>", ":vertical resize +2<CR>", opts)
-keymap("n", "<S-Right>", ":vertical resize -2<CR>", opts)
+keymap("n", "<S-Left>", ":vertical resize -2<CR>", opts)
+keymap("n", "<S-Right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
 --keymap("n", "<S-l>", ":bnext<CR>", opts)

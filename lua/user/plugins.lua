@@ -86,7 +86,7 @@ return packer.startup(function(use)
 
   -- NVIM Tree & icons
   use 'kyazdani42/nvim-web-devicons'
---  use 'kyazdani42/nvim-tree.lua'
+  use 'kyazdani42/nvim-tree.lua'
 
   -- TESTING --
   --use "p00f/nvim-ts-rainbow"
