@@ -23,7 +23,7 @@ vim.opt.termguicolors = true                   -- TODO: set term gui colors (not
 
 vim.opt.timeoutlen = 1000                       -- time to wait for a mapped sequence to complete (in milliseconds)
 vim.opt.undofile = true                         -- enable persistent undo
-vim.opt.undodir = '~/.vim/undodir'
+--vim.opt.undodir = '~/.vim/undodir'
 vim.opt.updatetime = 300                        -- faster completion (4000ms default)
 vim.opt.writebackup = false                     -- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
 vim.opt.expandtab = true                        -- convert tabs to spaces
