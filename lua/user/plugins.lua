@@ -44,7 +44,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
-  
+
   -- COLOR SCHEMES
   use 'folke/tokyonight.nvim'
   use 'ayu-theme/ayu-vim'
@@ -87,6 +87,11 @@ return packer.startup(function(use)
   -- NVIM Tree & icons
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
+
+  -- Open buffer tabs
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
+
 
   -- TESTING --
   --use "p00f/nvim-ts-rainbow"

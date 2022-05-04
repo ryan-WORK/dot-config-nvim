@@ -1,5 +1,6 @@
 -- following options are the default
 -- each of these are documented in `:help nvim-tree.OPTION_NAME`
+-- https://github.com/kyazdani42/nvim-tree.lua#setup
 vim.g.nvim_tree_icons = {
   default = "",
   symlink = "",

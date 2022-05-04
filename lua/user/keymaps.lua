@@ -36,8 +36,8 @@ keymap("n", "<S-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<S-Right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
---keymap("n", "<S-l>", ":bnext<CR>", opts)
---keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<S-l>", ":bnext<CR>", opts)
+keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
 -- Move text up and down NORMAL
 --keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
@@ -72,7 +72,7 @@ keymap("v", "p", '"_dP', opts) -- Mod (y)ank (p)aste
 --keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 
--- Telescope -- 
+-- Telescope --
 -- keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
 keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
