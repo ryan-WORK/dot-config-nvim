@@ -94,6 +94,8 @@ return packer.startup(function(use)
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
 
+  -- Lua Line -- dep web-devicons
+  use 'nvim-lualine/lualine.nvim'
 
   -- TESTING --
   --use "p00f/nvim-ts-rainbow"
