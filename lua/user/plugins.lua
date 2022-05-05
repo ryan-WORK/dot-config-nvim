@@ -49,7 +49,7 @@ return packer.startup(function(use)
   use 'folke/tokyonight.nvim'
   use 'ayu-theme/ayu-vim'
   use "pineapplegiant/spaceduck"
-  
+
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
@@ -107,8 +107,11 @@ return packer.startup(function(use)
   -- Performance vim use impatient
   use 'lewis6991/impatient.nvim'
 
+  -- Indentline --
+  use "lukas-reineke/indent-blankline.nvim"
+
   -- TESTING --
-  use "p00f/nvim-ts-rainbow"
+  --use "p00f/nvim-ts-rainbow"
   --use "nvim-treesitter/playground"
 
 
