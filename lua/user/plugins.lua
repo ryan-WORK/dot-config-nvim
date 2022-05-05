@@ -101,6 +101,11 @@ return packer.startup(function(use)
   -- Terminal in nvim
   use "akinsho/toggleterm.nvim"
 
+  -- Project Vim
+  use "ahmedkhalf/project.nvim"
+
+  -- Performance vim use impatient
+  use 'lewis6991/impatient.nvim'
 
   -- TESTING --
   use "p00f/nvim-ts-rainbow"
