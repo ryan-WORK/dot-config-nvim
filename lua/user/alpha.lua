@@ -12,6 +12,10 @@ dashboard.section.header.val = {
 	[[\ \_\ \_\ \____\ \____/\ \___/  \ \_\ \_\ \_\ \_\]],
 	[[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
 }
+
+
+
+
 dashboard.section.buttons.val = {
 
 	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
@@ -30,7 +34,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "ryan-WORK"
+	return "Proprietary software is an injustice. -Richard Stallman"
 end
 
 dashboard.section.footer.val = footer()
