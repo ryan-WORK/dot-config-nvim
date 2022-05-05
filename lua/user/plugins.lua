@@ -110,6 +110,13 @@ return packer.startup(function(use)
   -- Indentline --
   use "lukas-reineke/indent-blankline.nvim"
 
+  -- Alpha greeter
+  use 'goolord/alpha-nvim'
+  use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
+
+  -- Which Key Helper --
+  use "folke/which-key.nvim"
+
   -- TESTING --
   --use "p00f/nvim-ts-rainbow"
   --use "nvim-treesitter/playground"
