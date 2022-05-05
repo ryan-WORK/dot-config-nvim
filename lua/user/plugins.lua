@@ -97,6 +97,10 @@ return packer.startup(function(use)
   -- Lua Line -- dep web-devicons
   use 'nvim-lualine/lualine.nvim'
 
+  -- Terminal in nvim
+  use "akinsho/toggleterm.nvim"
+
+
   -- TESTING --
   --use "p00f/nvim-ts-rainbow"
   --use "nvim-treesitter/playground"
