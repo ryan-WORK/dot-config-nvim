@@ -48,7 +48,8 @@ return packer.startup(function(use)
   -- COLOR SCHEMES
   use 'folke/tokyonight.nvim'
   use 'ayu-theme/ayu-vim'
-
+  use "pineapplegiant/spaceduck"
+  
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
@@ -104,6 +105,7 @@ return packer.startup(function(use)
   -- TESTING --
   use "p00f/nvim-ts-rainbow"
   --use "nvim-treesitter/playground"
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
