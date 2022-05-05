@@ -152,6 +152,8 @@ nvim_tree.setup {
     },
   },
 
+
+------------------------------------------------
 -- DEAD --
  -- auto_resize = true, -- DOES NOT EXIST
  -- auto_close = true, --OLD
