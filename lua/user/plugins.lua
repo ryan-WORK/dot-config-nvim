@@ -102,7 +102,7 @@ return packer.startup(function(use)
 
 
   -- TESTING --
-  --use "p00f/nvim-ts-rainbow"
+  use "p00f/nvim-ts-rainbow"
   --use "nvim-treesitter/playground"
 
   -- Automatically set up your configuration after cloning packer.nvim
