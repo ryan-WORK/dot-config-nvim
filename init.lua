@@ -41,5 +41,4 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
-require "user.spellsitter"
 
