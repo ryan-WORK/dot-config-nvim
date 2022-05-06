@@ -1,4 +1,3 @@
---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
 --                                         __      __  _____   ____    __  __         |
 --                                        /\ \  __/\ \/\  __`\/\  _`\ /\ \/\ \        |
 -- _ __   __  __     __      ___          \ \ \/\ \ \ \ \ \/\ \ \ \L\ \ \ \/'/'       |
@@ -13,7 +12,7 @@
 --                                                   |
 -- FILENAME : init.lua                               |
 -- AUTHOR   : ryan-WORK                              |
--- VERSION  : neovim-0.7.0                           |                       |
+-- VERSION  : neovim-0.7.0                           |
 --                                                   |
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+
 
@@ -42,4 +41,5 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
+require "user.spellsitter"
 
