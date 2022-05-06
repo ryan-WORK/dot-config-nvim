@@ -33,8 +33,10 @@ local mode = {
 
 local filetype = {
 	"filetype",
-	icons_enabled = false,
-	icon = nil,
+	icons_enabled = true, --false
+	--icon = {" ", color={fg='green'}},
+    icon_only = true,
+    --colored = true,
 }
 
 local branch = {
