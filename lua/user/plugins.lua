@@ -46,10 +46,9 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
 
   -- COLOR SCHEMES
-  use 'folke/tokyonight.nvim'
-  use 'ayu-theme/ayu-vim'
-  use "pineapplegiant/spaceduck"
-
+  use "dracula/vim"
+  use "shaunsingh/moonlight.nvim"
+  
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
@@ -123,8 +122,9 @@ return packer.startup(function(use)
   -- TESTING --
   --use "p00f/nvim-ts-rainbow"
   --use "nvim-treesitter/playground"
-
-
+  use "jbyuki/one-small-step-for-vimkind"
+  use "mfussenegger/nvim-dap"
+  use "rcarriga/nvim-notify"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
