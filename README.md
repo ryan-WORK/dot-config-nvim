@@ -1,3 +1,3 @@
 # Resources
-- Test
+- Testing
 - Here
