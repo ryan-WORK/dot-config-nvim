@@ -105,6 +105,7 @@ nvim_tree.setup {
     },
     icons = {
       webdev_colors = true,
+      git_placement = "after", -- before
     },
   },
   hijack_directories = {
