@@ -47,6 +47,7 @@ return packer.startup(function(use)
 
   -- COLOR SCHEMES
   use "EdenEast/nightfox.nvim"
+  use "rebelot/kanagawa.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
