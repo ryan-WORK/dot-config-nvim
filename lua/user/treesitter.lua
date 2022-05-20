@@ -1,7 +1,7 @@
 local configs = require("nvim-treesitter.configs")
 configs.setup {
   ensure_installed = {"lua", "python",},
-  sync_install = false, 
+  sync_install = false,
   ignore_install = { "" }, -- List of parsers to ignore installing
   autopairs = { enable = true,},
   highlight = {
@@ -10,7 +10,7 @@ configs.setup {
     additional_vim_regex_highlighting = true,
 
   },
-  indent = { enable = true, disable = { "yaml" } },
+  indent = { enable = true, disable = { "yaml", "python" } }, -- Python broken?
   context_commentstring = {
     enable = true,
     enable_autocmd = false,

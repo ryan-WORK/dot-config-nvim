@@ -46,9 +46,8 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
 
   -- COLOR SCHEMES
-  use 'folke/tokyonight.nvim'
-  use 'ayu-theme/ayu-vim'
-  use "pineapplegiant/spaceduck"
+  use "EdenEast/nightfox.nvim"
+  use "rebelot/kanagawa.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -68,8 +67,11 @@ return packer.startup(function(use)
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   -- null LS
-  use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
-
+  --use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+    use {
+    "jose-elias-alvarez/null-ls.nvim",
+    commit = "bd9dfc6015241334c140fb065445ba9443e6de14"
+  }
   -- Telescope
   use "nvim-telescope/telescope.nvim"
   use 'nvim-telescope/telescope-media-files.nvim'
@@ -120,8 +122,9 @@ return packer.startup(function(use)
   -- TESTING --
   --use "p00f/nvim-ts-rainbow"
   --use "nvim-treesitter/playground"
-
-
+  use "jbyuki/one-small-step-for-vimkind"
+  use "mfussenegger/nvim-dap"
+  use "rcarriga/nvim-notify"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

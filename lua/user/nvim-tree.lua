@@ -73,7 +73,7 @@ nvim_tree.setup {
   },
   git = {
     enable = true,
-    ignore = true,
+    ignore = false,
     timeout = 500,
   },
   view = {
@@ -105,6 +105,7 @@ nvim_tree.setup {
     },
     icons = {
       webdev_colors = true,
+      git_placement = "after", -- before
     },
   },
   hijack_directories = {
